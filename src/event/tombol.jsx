@@ -37,8 +37,10 @@ class Tombol extends Component {
                 <button className="buton" name="3" onClick={this.buttonPressed}>3</button>
                 <button className="buton" name="-" onClick={this.buttonPressed}>-</button>
                 <button className="nol" name="0" onClick={this.buttonPressed}>0</button>
+                <button className="titik" name="." onClick={this.buttonPressed}>.</button>
                 <button className="buton" name="+" onClick={this.buttonPressed}>+</button>
                 <button className="samadengan" name="=" onClick={this.buttonPressed}>=</button>
+                <button className="ce" name="CE" onClick={this.buttonPressed}>CE</button>
                 <button className="hapus" name="C" onClick={this.buttonPressed}>C</button>
             </div>
         );

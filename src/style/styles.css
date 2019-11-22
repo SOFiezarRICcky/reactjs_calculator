@@ -8,7 +8,7 @@
 
 .formhasil{
     width: 380px;
-    min-height: 300px;
+    min-height: 100px;
 
 }
 .hasil{
@@ -36,14 +36,29 @@ margin-top: -110px;
 }
 
 .nol{
-    width: 270px;
+    width: 175px;
     height: 80px;
     font-size: 30px;
     margin-right: 15px;
 }
 
+.titik{
+    width:80px;
+    margin-right: 15px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
 .samadengan{
-    width: 270px;
+    width: 175px;
+    height: 80px;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.ce{
+    width:80px;
     height: 80px;
     font-size: 30px;
     margin-top: 15px;

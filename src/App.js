@@ -13,15 +13,23 @@ class App extends Component {
       this.calculate();
     } else if (buttonName === "C") {
       this.reset();
+    } else if (buttonName === "CE") {
+      this.backspace()
     } else
       this.setState({
         result: this.state.result + buttonName
       });
   };
 
+  backspace = () => {
+    this.setState({
+      result: this.state.result.slice(0, -1)
+    })
+  }
+
   reset = () => {
     this.setState({
-      results: ''
+      result: ''
     });
   };
 
