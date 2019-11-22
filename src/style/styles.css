@@ -1,0 +1,66 @@
+.wrapper{
+    background-color: #666666;
+    width: 380px;
+    min-height: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+.formhasil{
+    width: 380px;
+    min-height: 300px;
+
+}
+.hasil{
+    text-align: right;
+    color: white;
+    font-size: 80px;
+    margin-top: 30px;
+    padding-top: 70px;
+}
+
+.perhitungan{
+font-size: 50px;
+text-align: right;
+color: white;
+margin-top: -110px;
+}
+
+.Hapus{
+    height: 80px;
+    width: 175px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+}
+
+.nol{
+    width: 270px;
+    height: 80px;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.samadengan{
+    width: 270px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.hapus{
+    width:80px;
+    margin-left: 15px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.buton{
+    width:80px;
+    margin-right: 15px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 15px;
+}
